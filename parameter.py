@@ -12,7 +12,7 @@ import re
 # pattern = re.compile(r'(?:^\+|-)\s*\([^()]+\).*', re.M)#need ?: oc func
 # ocfunc_rule = re.compile(r'*/s*.*\/s*;', re.M)
 ocfunc_rule = re.compile(r'.*;', re.M)
-numMax = 20
+numMax = 35
 
 def getResourcePath(targetpath):
     # print("=====================Find all Files=========================")
